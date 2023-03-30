@@ -1,0 +1,29 @@
+.main{
+    padding:2.5rem  3rem;
+    max-height:100vh;
+    height:100vh;
+}
+
+.window{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:3rem;
+}
+
+.child{
+    margin:2rem;
+   
+}
+
+.child .img{
+     border-radius:50%;
+    min-height:130px;
+    min-width:130px;
+    background-color: grey;
+}
+
+.subheading{
+    margin:-1rem;
+    font-size: 10px;
+}

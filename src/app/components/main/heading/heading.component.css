@@ -1,0 +1,96 @@
+
+
+.mainheading{
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: "Gilroy", Sans-serif;
+}
+
+
+.mainheading
+{
+color:red;
+animation:myfirst 5s;
+-moz-animation:myfirst 5s; /* Firefox */
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+-o-animation:myfirst 5s; /* Opera */
+    
+-moz-animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;
+-o-animation-iteration-count: infinite;
+}
+
+@keyframes myfirst
+{
+0%   {color:rgb(168, 61, 234);}
+25%  {color:rgb(255, 0, 200);}
+50%  {color:rgb(0, 183, 255);}
+75% {color:rgb(0, 128, 107);}
+100%   {color:rgb(229, 255, 0);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%   {color:rgb(168, 61, 234);}
+    25%  {color:rgb(255, 0, 200);}
+    50%  {color:rgb(0, 183, 255);}
+    75% {color:rgb(0, 128, 107);}
+    100%   {color:rgb(229, 255, 0);}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    0%   {color:rgb(168, 61, 234);}
+    25%  {color:rgb(255, 0, 200);}
+    50%  {color:rgb(0, 183, 255);}
+    75% {color:rgb(0, 128, 107);}
+    100%   {color:rgb(229, 255, 0);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0%   {color:rgb(168, 61, 234);}
+    25%  {color:rgb(255, 0, 200);}
+    50%  {color:rgb(0, 183, 255);}
+    75% {color:rgb(0, 128, 107);}
+    100%   {color:rgb(229, 255, 0);}
+}
+
+
+.subheading{
+    font-size: 2rem;
+    margin:1rem;
+}
+#hi:after {
+	content: "";
+	animation: spin 7s linear infinite alternate;
+    color:rgb(200, 161, 237)
+}
+
+button{
+    padding:0.5rem 2rem;
+    margin:1rem;
+    border-radius: 20px;
+}
+
+button:hover{
+    padding:0.9rem 2.7rem;
+}
+
+.colored{
+    background-image: linear-gradient(rgb(187, 0, 255), rgb(255, 0, 234));
+}
+
+
+@keyframes spin {
+  0% { content:"Consultancy"; }
+  25%  {content: "Accelerator";}
+50%  {content:" Community";}
+75% {content:"Funding";}
+  100% { content:"Growth Partner"; }
+}
+
+.content{
+    margin:2rem;
+    margin-bottom: 5rem;
+}

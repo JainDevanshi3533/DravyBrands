@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Aladin', cursive;
+}
+
+.center{
+    text-align: center;
+}
+
+hr{
+    background-color:grey;
+    margin:0;
+    height:3px;
+}

@@ -1,0 +1,12 @@
+.main{
+    background-color: rgb(27, 26, 26);
+    margin:0;
+    display: flex;
+    padding:4rem;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+
+.child{
+    margin:0 2rem;
+}
